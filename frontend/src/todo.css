@@ -1,0 +1,311 @@
+.todo {
+    height: 100%;
+    min-height: 100vh;
+    background-color: var(--background);
+    padding: 4rem 2rem;
+}
+
+.todo>.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    color: aliceblue;
+}
+
+.todo-title {
+    text-align: center;
+    height: 10rem;
+    width: 100%;
+}
+
+.todo-title span {
+    font-size: 4rem;
+}
+
+.todo-title :nth-child(2) {
+    color: var(--accent);
+}
+
+.todo-title :nth-child(3) {
+    color: var(--text);
+}
+
+.todo>.wrapper>.todos-content {
+    background-color: var(--secondary);
+    border-radius: .3rem;
+    max-width: 90rem;
+    width: 100%;
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.todo-items>.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.todo-counters {
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo-counters>div {
+    display: flex;
+    gap: .5rem;
+}
+
+.todo-counters > div > p {
+    font-size: 1.5rem;
+}
+
+.todo-counters>div>span {
+    background-color: var(--accent);
+    padding: 0rem 1rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+}
+
+.todo-items > .wrapper > ol {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.todo-item>.wrapper {
+    background-color: hsl(193, 39%, 54%);
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.2rem 2rem;
+    border-radius: .3rem;
+}
+
+.todo-content {
+    flex-grow: 1;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.todo-header {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.todo-content > p {
+    font-size: 1.65rem;
+}
+
+.todo-content[data-checked="true"] {
+    color: hsl(208, 100%, 87%);
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+/* Hide the default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.container {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 2.5rem;
+    user-select: none;
+}
+
+.container :hover {
+    background-color: hsl(193, 39%, 80%);
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 1.35rem;
+    background-color: hsl(193, 39%, 88%);
+    border-radius: 2rem;
+    transition: 0.15s;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked~.checkmark {
+    background-color: hsl(120, 61%, 50%);
+    transition: 0.15s;
+}
+
+.container:hover input:checked~.checkmark {
+    background-color: hsl(120, 61%, 55%);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    font-size: 2rem;
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: .5em;
+    top: .5rem;
+    width: .8rem;
+    height: 1.4rem;
+    border: solid white;
+    border-width: 0 .35rem .35rem 0;
+    transform: rotate(45deg);
+}
+
+.todo-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.todo-delete-btn {
+
+}
+
+.todo-delete-btn > i,
+.todo-edit-btn > i {
+
+}
+
+.todo-delete-btn > i:hover, i:focus,
+.todo-edit-btn > i:hover, i:focus {
+    color: hsl(0, 100%, 60%);
+    cursor: pointer;
+    transition: .15s;
+}
+
+.todo-edit-btn > i:hover, i:focus {
+    color: var(--secondary);
+}
+
+.edit-todo-modal {
+    position: fixed;
+    inset: 0;
+    margin: auto;
+    border: .3rem solid aliceblue;
+    border-radius: .3rem;
+    background-color: var(--primary);
+}
+
+.edit-todo-modal > .wrapper {
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.close-modal-btn {
+    align-self: flex-end;
+    background-color: transparent;
+}
+
+.close-modal-btn > i {
+    font-size: 2.5rem;
+    transition: .015s;
+}
+
+.close-modal-btn > i:hover,
+.close-modal-btn > i:focus {
+    color: red;
+}
+
+/* form style */
+.todo-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem 0rem;
+    gap: 2rem;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs > label {
+    margin: .5rem 0rem;
+}
+
+.inputs > input {
+    outline: none;
+    background-color: var(--secondary);
+    color: aliceblue;
+    border-radius: .3rem;
+    height: 4.2rem;
+    padding-left: 1rem;
+    transition: .15s;
+    font-size: 1.8rem;
+}
+
+.inputs > input::placeholder,
+.inputs > textarea::placeholder {
+    color: aliceblue;
+}
+
+.inputs > input:focus,
+.inputs > textarea:focus {
+    color: black;
+    background-color: hsl(193, 39%, 88%);
+    transition: .15s;
+}
+
+.inputs > input:focus::placeholder,
+.inputs > textarea:focus::placeholder {
+    color: hsl(193, 39%, 28%);
+    transition: .15s;
+}
+
+.inputs > textarea {
+    font-size: 1.8rem;
+    background-color: var(--secondary);
+    color: aliceblue;
+    border-radius: .3rem;
+    min-height: 4.2rem;
+    max-height: 25rem;
+    height: 12rem;
+    resize: vertical;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    outline: none;
+}
+
+.add-todo-btn {
+    background-color: var(--accent);
+    padding: .8rem;
+    border-radius: .3rem;
+    display: flex;
+    height: max-content;
+    align-items: center;
+    justify-content: center;
+    gap: .8rem;
+    transition: .15s;
+}
+
+.add-todo-btn:hover {
+    background-color: hsl(193, 39%, 88%);
+}
+
+.add-todo-btn>* {
+    font-size: 2rem;
+}
