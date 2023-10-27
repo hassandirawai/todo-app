@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="91dd234e-0f32-4fe1-84fa-9417b0e9f10c" name="Changes" comment="todo app">
+      <change beforePath="$PROJECT_DIR$/frontend/src/TodoApp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/TodoApp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/TodoItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/TodoItem.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vondoom78&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="391ed285-cf87-438e-998c-9c0e1ee8323e" />
+        <option name="url" value="https://github.com/vondoom78/todo-app.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2XCgiTujYnPLyw4eTh0mZumuiwr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ReactCreateComponentLastSelected": "functionDeclarationComponent",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "R:/html-tests/tailwindcss-app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.rcb.reactComponents" value="false" />
+        <entry key="com.haulmont.rcb.reactInspector" value="false" />
+        <entry key="com.haulmont.rcb.storybook" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="R:\html-tests\todo-app-mern-stak\frontend\src" />
+      <recent name="R:\html-tests\todo-app-mern-stak\frontend\src\components" />
+      <recent name="R:\html-tests\todo-app-mern-stak\frontend\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="R:\html-tests\todo-app-mern-stak\frontend\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91dd234e-0f32-4fe1-84fa-9417b0e9f10c" name="Changes" comment="" />
+      <created>1698138602237</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698138602237</updated>
+      <workItem from="1698138604814" duration="1294000" />
+      <workItem from="1698139929024" duration="2508000" />
+      <workItem from="1698142496948" duration="8250000" />
+      <workItem from="1698151301362" duration="6552000" />
+      <workItem from="1698161972177" duration="8551000" />
+      <workItem from="1698227084775" duration="10263000" />
+      <workItem from="1698237917758" duration="6341000" />
+      <workItem from="1698249006916" duration="32000" />
+      <workItem from="1698249049693" duration="8363000" />
+      <workItem from="1698310011270" duration="8992000" />
+      <workItem from="1698323603593" duration="1671000" />
+      <workItem from="1698325324463" duration="4875000" />
+      <workItem from="1698334868442" duration="1010000" />
+      <workItem from="1698403289778" duration="1254000" />
+      <workItem from="1698405138091" duration="1470000" />
+    </task>
+    <task id="LOCAL-00001" summary="todo app">
+      <option name="closed" value="true" />
+      <created>1698329709163</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698329709163</updated>
+    </task>
+    <task id="LOCAL-00002" summary="todo app">
+      <option name="closed" value="true" />
+      <created>1698335864588</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698335864588</updated>
+    </task>
+    <task id="LOCAL-00003" summary="todo app">
+      <option name="closed" value="true" />
+      <created>1698403439108</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698403439108</updated>
+    </task>
+    <task id="LOCAL-00004" summary="todo app">
+      <option name="closed" value="true" />
+      <created>1698405226491</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698405226491</updated>
+    </task>
+    <task id="LOCAL-00005" summary="todo app">
+      <option name="closed" value="true" />
+      <created>1698405263404</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698405263404</updated>
+    </task>
+    <task id="LOCAL-00006" summary="todo app">
+      <option name="closed" value="true" />
+      <created>1698405632241</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698405632241</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="todo app" />
+    <option name="LAST_COMMIT_MESSAGE" value="todo app" />
+  </component>
+</project>
