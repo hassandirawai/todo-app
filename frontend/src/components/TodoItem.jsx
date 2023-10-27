@@ -9,7 +9,7 @@ export default function TodoItem({todo, onDelete, onComplete, getTodos}) {
 
     const saveTodo = (title, description) => {
         const todoBody = { title: title, description: description }
-        axios.put(`http://localhost:3000/todos/${todo._id}`, todoBody)
+        axios.put(`https://todo-app-usin.onrender.com/todos/${todo._id}`, todoBody)
             .then( (res) => {
                 console.log(res.data)
                 setState(res.data.updatedTodo)

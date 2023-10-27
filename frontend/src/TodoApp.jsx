@@ -15,7 +15,7 @@ export default function TodoApp() {
 
     // Get all todos from server
     useEffect(() => {
-        axios.get("http://localhost:3000/todos")
+        axios.get("https://todo-app-usin.onrender.com/todos")
             .then( (res) => {
                 setTodosListState(res.data.data.todos.reverse())
                 setGetTodos(false)
@@ -24,7 +24,7 @@ export default function TodoApp() {
 
     const addTodo = (title, description) => {
         const todoBody = { title: title, description: description }
-        axios.post("http://localhost:3000/todos", todoBody)
+        axios.post("https://todo-app-usin.onrender.com/todos", todoBody)
             .then( (res) => {
                 console.log(res.data)
                 setGetTodos(true)
@@ -32,7 +32,7 @@ export default function TodoApp() {
     }
 
     const deleteTodoById = (todoId) => {
-        axios.delete(`http://localhost:3000/todos/${todoId}`)
+        axios.delete(`https://todo-app-usin.onrender.com/todos/${todoId}`)
             .then( (res) => {
                 console.log(res.data)
                 setGetTodos(true)
@@ -40,7 +40,7 @@ export default function TodoApp() {
     }
 
     const completeTodo = (completeState, todoId) => {
-        axios.put(`http://localhost:3000/todos/${todoId}`, { completed: completeState })
+        axios.put(`https://todo-app-usin.onrender.com/todos/${todoId}`, { completed: completeState })
             .then( (res) => {
                 console.log(res.data)
                 setGetTodos(true)
