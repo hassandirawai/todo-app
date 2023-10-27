@@ -7,7 +7,6 @@
     <list default="true" id="91dd234e-0f32-4fe1-84fa-9417b0e9f10c" name="Changes" comment="todo app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,12 +85,22 @@
       <recent name="R:\html-tests\todo-app-mern-stak\frontend\src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start-frontend">
-    <configuration name="build-frontend" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="build-client" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="build-frontend" />
+        <script value="build-client" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -107,31 +116,21 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="install-frontend" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="start-client" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="install-frontend" />
+        <script value="start-client" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="start-frontend" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
       <command value="run" />
       <scripts>
-        <script value="start-frontend" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="start-server" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start-server" />
+        <script value="start" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -139,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start-frontend" />
-        <item itemvalue="npm.build-frontend" />
-        <item itemvalue="npm.install-frontend" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.start-client" />
+        <item itemvalue="npm.build-client" />
         <item itemvalue="npm.install-client" />
-        <item itemvalue="npm.start-server" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +169,7 @@
       <workItem from="1698334868442" duration="1010000" />
       <workItem from="1698403289778" duration="1254000" />
       <workItem from="1698405138091" duration="1722000" />
-      <workItem from="1698407039259" duration="634000" />
+      <workItem from="1698407039259" duration="1491000" />
     </task>
     <task id="LOCAL-00001" summary="todo app">
       <option name="closed" value="true" />
@@ -236,7 +235,31 @@
       <option name="project" value="LOCAL" />
       <updated>1698406662429</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="todo app">
+      <option name="closed" value="true" />
+      <created>1698407704032</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1698407704032</updated>
+    </task>
+    <task id="LOCAL-00010" summary="todo app">
+      <option name="closed" value="true" />
+      <created>1698407854216</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1698407854216</updated>
+    </task>
+    <task id="LOCAL-00011" summary="todo app">
+      <option name="closed" value="true" />
+      <created>1698407969386</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1698407969386</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
